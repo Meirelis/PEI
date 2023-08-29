@@ -1,0 +1,167 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+    background-color: #d9d9d9;
+    height: 140px;
+    padding-right: 85px;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    background: url(../img/logo.png) no-repeat center;
+    background-size: 120px;
+    padding-left: 250px;
+    float: left;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    margin-right: 50px;
+}
+
+input {
+    margin: 5px 0px;
+}
+
+
+.botao{
+    height: 30px;
+    width: 80px; 
+}
+
+.botao:hover{
+    background-color: #2966bd; 
+    transition: 800ms;
+    color: #fff;
+}
+
+.container-mid{
+   height: 500px;
+   background-color: #ffffff;
+padding-top: 30px;
+}
+
+.container-azul{
+    height: 300px;
+    width: auto;
+    background-color: #2966bd;
+}
+
+.container-texto{
+    max-width: 55%;
+    padding: 30px 20px;
+    font-size: 20px;
+}
+
+.negrito{
+    font-size: 26px;
+}
+
+.linha{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.linha span{
+    height: 0.1px;
+    border: 1.8px solid black;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.img img{
+    height: 50px;
+    width: 50px;
+}
+.img{
+    position: relative;
+    bottom: 10px;
+}
+
+.container-imagens{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+}
+
+.bloco-1 {
+    max-width: 370px;
+    
+}
+
+.bloco-2 {
+    max-width: 370px;
+}
+
+.bloco-3 {
+    max-width: 370px;
+}
+
+.container-imagens span{
+    font-size: 18px;
+}
+
+.container-imagens .text-1 {
+    position: relative;
+    margin-left: 5 5px;
+}
+
+footer{
+    color: rgb(218, 217, 217);
+    background-color: #2966bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 25px;
+}
+
+.form-cadastro{
+    background-color: rgba(121, 121, 121, 0.884);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    margin-left: 65%;
+    padding: 30px;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.form-cadastro form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-cadastro .botao{
+    position: relative;
+   margin-top: 320px;
+    
+}
+
+.form-cadastro label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #d9d9d9;
+}
+
+.form-cadastro strong{
+  
+    display: flex;  
+    align-items: center;
+  
+    
+}
