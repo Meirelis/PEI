@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     background-image: url('../img/academia.jpg');
     background-size: 100%;
@@ -25,11 +25,15 @@ body{
 .logo{
     height: 100px;
     width: 100px;
-    background: url(../img/logo.png) no-repeat center;
-    background-size: 120px;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
     padding-left: 250px;
 
 }
+
+
+
 .usuario{
     height: 75px;
     width: 75px;
@@ -68,19 +72,19 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 85px;
     gap: 50px;
     
 }
 .treinos h2{
     font-size: 70px;
-    color: #d9d9d9;
+    color: #ffffff;
 }
 .inferiores{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.541);
+    background-color: rgba(0, 0, 0, 0.671);
     height: 50px;
     width: 400px;
     border-radius: 30px;
@@ -118,4 +122,8 @@ footer{
 .body img {
     width: 100px;
     height: 100px;
+}
+
+.inferiores {
+    color: rgb(255, 255, 255);
 }
